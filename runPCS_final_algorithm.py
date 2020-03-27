@@ -19,7 +19,7 @@ from PCS_functions import *
 from PCS_solvers import *
 
 __author__ = "Jan Papez"
-__license__ = "GPL"
+__license__ = "LGPL"
 __version__ = "1.0.0 of March 25, 2020"
 __maintainer__ = "Jan Papez"
 __email__ = "jan@papez.org"

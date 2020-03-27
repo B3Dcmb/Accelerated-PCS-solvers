@@ -12,7 +12,7 @@ this script defined several matrix operations that would be slow in Python
 
 /*
 author = "Jan Papez"
-license = "GPL"
+license = "LGPL"
 version = "1.0.0 of March 25, 2020"
 maintainer = "Jan Papez"
 email = "jan@papez.org"

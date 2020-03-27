@@ -8,11 +8,11 @@ this script defines the auxiliary functions for the experiments
 
 import numpy as np
 import os
-import param
 import copy
 import sys
 import argparse
 
+import param
 import matrix_operations_wrapper
 
 units = 'CMB-CMB'
@@ -20,7 +20,7 @@ whatfft = 'fftw_inC' #variant of fft; other options: "numpy", "scipy" and "scipy
 #import scipy.fftpack as scfft
 
 __author__ = "Jan Papez"
-__license__ = "GPL"
+__license__ = "LGPL"
 __version__ = "1.0.0 of March 25, 2020"
 __maintainer__ = "Jan Papez"
 __email__ = "jan@papez.org"

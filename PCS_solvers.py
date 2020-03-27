@@ -8,14 +8,14 @@ this script defines the solvers for the experiments: standard PCG and PCG with
 """
 
 import numpy as np
-import param
 import scipy.linalg as spla
 import time
 
+import param
 from PCS_functions import *
 
 __author__ = "Jan Papez"
-__license__ = "GPL"
+__license__ = "LGPL"
 __version__ = "1.0.0 of March 25, 2020"
 __maintainer__ = "Jan Papez"
 __email__ = "jan@papez.org"

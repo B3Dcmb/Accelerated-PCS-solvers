@@ -9,10 +9,11 @@ this script is a wrapper for matrix operation functions implemented in C
 import numpy as np
 import numpy.ctypeslib as npct
 from ctypes import c_int, c_double
+
 import param
 
 __author__ = "Jan Papez"
-__license__ = "GPL"
+__license__ = "LGPL"
 __version__ = "1.0.0 of March 25, 2020"
 __maintainer__ = "Jan Papez"
 __email__ = "jan@papez.org"
