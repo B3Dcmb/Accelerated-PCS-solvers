@@ -13,6 +13,7 @@ After cloning the repository, the C-code `matrix_operations.c` must be compiled 
 The experiments require simulated data. The data we used for our experiments are available from NERSC Science Gateway: `XXX` Below, we provide their brief description.
 
 signal
+<<<<<<< HEAD
 *  values of signal components in observed pixels (3 components: cmb, dust, sync): 3 matrices of size (N_pix,3). FILES: `cmb_observed.txt`, `dust_observed.txt`, `sync_observed.txt`;
 *  a priori generated sequence of mixing parameters. FILES: `sampled_betas.npy`
 
@@ -34,3 +35,14 @@ meaning that test case 'case2' is used, maximal number of iterations (for each s
 
 The code uses Python 2.7 with the libraries: numpy, numpy.ctypeslib, os, time, sys, scipy.linalg, copy, argparse, ctypes.
 For the fft operations, we use FFTW3 library in C.
+=======
+*  values of signal components in observed pixels (3 components: cmb, dust, sync): 3 matrices of size (N_pix,3). FILES: cmb_observed.txt, dust_observed.txt, sync_observed.txt; 
+*  sequence of mixing parameters. FILES: sampled_betas.npy
+
+noise
+*  for each frequency: inverse spectrum and 2 noise realizations (for horizontal and vertical scans), all vectors of length N_t. FILES: inverse_pf[i].npy, noisestream_hscan_sim[i].npy, noisestream_vscan_sim[i].npy where "[i]" is replaced by 0, 1, ..., N_freq
+
+pointing
+*  index of the observed pixel in time t, indices should be in [0, N_pix-1] for horizontal and vertical scans; 2 vectors of length N_t. FILES: hscan_[case]_ns1024_processed.npy, vscan_[case]_ns1024_processed.npy where "[case]" is replaced by the test case, in our case, e.g., "case0"
+*  Q and U weights for horizontal and vertical scans; 2x2 vectors of length N_t, can be shortened if periodic. FILES: qwght_hscan_[case].npy, qwght_vscan_[case].npy, uwght_hscan_[case].npy, uwght_vscan_[case].npy (or for example qwght_hscan_[case]_short.npy if the file is shortened thanks to periodicity)
+>>>>>>> 60197449b249d45352dbb579aba77090bc02588e
