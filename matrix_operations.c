@@ -16,7 +16,7 @@ license = "LGPL"
 version = "1.0.0 of March 25, 2020"
 maintainer = "Jan Papez"
 email = "jan@papez.org"
-status = "Code for the experiments for the paper"
+status = "proof-of-concept code"
 */
 
 /* application of the pointing matrix */

@@ -6,7 +6,7 @@ script for the experiments from the paper Papez, Grigori, Stompor 2020: "Acceler
     background data", submitted to Astronomy & Astrophysics
 
 this script runs deflated PCG for a single PCS system, deflations vectors are
-    loaded from 'PCSdeflvectors.npy'
+    loaded from 'PCSdeflvectors.npy' (vectors must be provided by the user!)
 """
 
 import numpy as np
@@ -24,7 +24,7 @@ __license__ = "LGPL"
 __version__ = "1.0.0 of March 25, 2020"
 __maintainer__ = "Jan Papez"
 __email__ = "jan@papez.org"
-__status__ = "Code for the experiments for the paper"
+__status__ = "proof-of-concept code"
 
 
 #### setting the default parameters

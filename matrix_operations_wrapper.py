@@ -17,7 +17,7 @@ __license__ = "LGPL"
 __version__ = "1.0.0 of March 25, 2020"
 __maintainer__ = "Jan Papez"
 __email__ = "jan@papez.org"
-__status__ = "Code for the experiments for the paper"
+__status__ = "proof-of-concept code"
 
 # define the pointers
 array_1d_int = npct.ndpointer(dtype=np.int, ndim=1, flags='CONTIGUOUS')
